@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chau.yoyoshop">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_yoyoshop"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.chau.yoyoshop.View.ManHinhChao.ManHinhChaoActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.chau.yoyoshop.View.TrangChu.TrangChuActivity"
+            android:screenOrientation="portrait"
+            >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name="com.chau.yoyoshop.View.GioHang.GioHangActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name="com.chau.yoyoshop.View.ThanhToan.ThanhToanActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name="com.chau.yoyoshop.View.DangNhap.DangNhapActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name="com.chau.yoyoshop.View.HoaDon.HoaDonActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+
+
+
+
+
+        <!--<activity android:name="com.chau.yoyoshop.View.TrangChu.TestActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--&gt;-->
+            <!--&lt;!&ndash;<intent-filter>&ndash;&gt;-->
+            <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</activity>-->
+
+
+
+    </application>
+
+</manifest>
